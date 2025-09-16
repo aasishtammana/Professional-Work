@@ -161,7 +161,7 @@ Retrieved Context → Feature Extraction → Specification Formatting → LLM Pr
 - **Browser**: Modern web browser for Streamlit interface
 
 ### 3. External Dependencies
-- **Ollama Server**: Remote server at `http://ollama.altium.biz:11434/`
+- **Ollama Server**: Remote server at `http://[OLLAMA_SERVER_HOST]:11434/`
 - **Internet Access**: Required for initial model downloads and remote LLM access
 
 ## Deployment Architecture

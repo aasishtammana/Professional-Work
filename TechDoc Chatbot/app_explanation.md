@@ -14,7 +14,7 @@ The `app.py` script is the main Streamlit application that implements a RAG (Ret
 - **JSON**: Data parsing and manipulation for component specifications
 
 ### External Services
-- **Ollama Server**: Remote Ollama instance at `http://ollama.altium.biz:11434/`
+- **Ollama Server**: Remote Ollama instance at `http://[OLLAMA_SERVER_HOST]:11434/`
 - **Model**: `deepseek-r1:latest` for response generation
 
 ## Detailed Function Analysis
@@ -24,7 +24,7 @@ The `app.py` script is the main Streamlit application that implements a RAG (Ret
 **Purpose**: Sets up the Ollama host environment variable for remote LLM access.
 
 ```python
-os.environ['OLLAMA_HOST'] = os.getenv('OLLAMA_HOST', 'http://ollama.altium.biz:11434/')
+os.environ['OLLAMA_HOST'] = os.getenv('OLLAMA_HOST', 'http://[OLLAMA_SERVER_HOST]:11434/')
 ```
 
 **Key Features**:

@@ -357,7 +357,7 @@ def main():
     input_filename = sys.argv[1]
     
     # Define the output directory
-    output_dir = r"C:\Users\Public\Documents\Altium"
+    output_dir = r"[ALTIUM_DOCUMENTS_PATH]"
     output_file = os.path.join(output_dir, "out.txt")
     
     try:

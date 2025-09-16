@@ -47,7 +47,7 @@ EDIF_FILE_PATH = "RZG2L_SMARC.EDF"
 
 **Absolute Path**:
 ```python
-EDIF_FILE_PATH = "C:\\Users\\AasishTammana\\Desktop\\Product Foundry\\Filters\\RZG2L_SMARC.EDF"
+EDIF_FILE_PATH = "C:\\Users\\[USERNAME]\\Desktop\\[PROJECT_DIRECTORY]\\Filters\\RZG2L_SMARC.EDF"
 ```
 - **Pros**: Works regardless of executable location
 - **Cons**: Not portable, hardcoded to specific system
@@ -162,7 +162,7 @@ def _initialize_score_classifier(self):
 **Build Command**:
 ```bash
 # Navigate to project directory
-cd "C:\Users\AasishTammana\Desktop\Product Foundry\Filters"
+cd "[PROJECT_ROOT_DIRECTORY]"
 
 # Run PyInstaller
 pyinstaller --onefile --console convert.py
@@ -201,7 +201,7 @@ EDIF_FILE_PATH = "data/RZG2L_SMARC.EDF"
 **Absolute Paths (Avoid)**:
 ```python
 # Bad: Absolute path reduces portability
-EDIF_FILE_PATH = "C:\\Users\\AasishTammana\\Desktop\\Product Foundry\\Filters\\RZG2L_SMARC.EDF"
+EDIF_FILE_PATH = "C:\\Users\\[USERNAME]\\Desktop\\[PROJECT_DIRECTORY]\\Filters\\RZG2L_SMARC.EDF"
 ```
 
 #### 6.2 Error Handling
